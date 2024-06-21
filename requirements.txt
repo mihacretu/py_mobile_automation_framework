@@ -1,0 +1,3 @@
+appium-python-client
+pytest
+pytest-html
