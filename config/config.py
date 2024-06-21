@@ -4,7 +4,7 @@ class Config:
     PLATFORM = os.getenv('PLATFORM', 'Android')  # 'iOS' or 'Android' - Default to 'Android' if PLATFORM is not set
 
     # Common settings
-    APP = os.path.abspath('path/to/app.ipa') if PLATFORM == 'iOS' else os.path.abspath('d:/workspace/code_source/py_mobile_automation_framework/apk/app-release-signed-527.apk')
+    APP = os.path.abspath('path/to/app.ipa') if PLATFORM == 'iOS' else os.path.abspath('../apk/app-release-signed-527.apk')
 
     # iOS settings
     IOS_PLATFORM_NAME = 'iOS'
